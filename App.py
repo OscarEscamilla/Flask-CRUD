@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 #pasamos parametros de configuracion para conexion a base de datos
 app.config['MYSQL_HOST'] = 'localhost';
-app.config['MYSQL_USER'] = 'root';
-app.config['MYSQL_PASSWORD'] = '';
+app.config['MYSQL_USER'] = 'heroku';
+app.config['MYSQL_PASSWORD'] = 'heroku.2019';
 app.config['MYSQL_DB'] = 'flask_crud';
 
 #sesion 
